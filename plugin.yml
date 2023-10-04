@@ -1,0 +1,15 @@
+name: BoatsPlus
+author: skyss0fly
+main: skyss0fly/BoatsPlus/Main
+version: 0.1
+api: 5.0.0
+
+permissions:
+BoatsPlus.SpeedBoat:
+default: false
+description: "Zoom around in A SpeedBoat"
+
+commands:
+speedboat:
+permission: BoatsPlus.SpeedBoat
+description: "Get a SpeedBoat"
